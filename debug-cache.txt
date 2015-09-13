@@ -9,5 +9,9 @@ git pull origin master : local_branch
 使用git merge 后如果有conflicts 才git mergetool 能调用起来
 
 避免.txt.orig文件生成
+git config --global mergetool.keepBackup false  (避免生成的备份文件不删除)
+
+#发现 git difftool 工具使用bc 时 可以直接进行比较和合并操作，mergetool 用起来比较繁琐，需要重选要比较的文件，如果不选择结果可能就不保存了， 需要（原工程文件和remote的文件比较，否则失败）比较
+
 
 
