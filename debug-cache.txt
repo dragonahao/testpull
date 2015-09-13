@@ -3,7 +3,10 @@ git rm --cache来unstage操作
 
 git pull origin master : local_branch
 拉去指定分支到本地的指定分支  
-
-//新增一行注释：mergetool
+ 
 测试git mergetool的用法
 使用git merge 后如果有conflicts 才git mergetool 能调用起来
+
+避免.txt.orig文件生成
+
+
